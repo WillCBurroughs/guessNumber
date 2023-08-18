@@ -1,0 +1,46 @@
+* {
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+html{
+    display: table;
+    margin: auto; 
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#text-Display{
+    font-size: 3rem;
+    margin-top: -15rem;
+}
+
+#number {
+    width: 4rem;
+    height: 2rem;
+    border-color: darkslategray;
+    font-size: 1rem;
+    background-color: aliceblue;
+    color:rgb(6, 6, 6);
+}
+
+#submit, #play-Again {
+    width: 15rem;
+    height: 3rem;
+    margin-left: 3rem;
+    background-color: rgb(11, 131, 236);
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+#play-Again{
+    margin-top: 5rem;
+}
